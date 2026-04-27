@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VigieSante - Collecte IMC</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+</head>
+<body>
+    <div class="container">
+        <div class="header-image">
+            <img src="{{url_for('static',filename='accueil.jpeg')}}"
+            alt="Sante" class="form-image">
+            </div>
+        <h1>Collecte de données Biométriques</h1>
+        <p>Veuillez remplir vos informations pour une analyse instantanée.</p>
+        <form action="/calculer" method="POST">
+            <div class="input-group">
+                <label>Votre Nom :</label><br>
+                <input type="text" name="utilisateur" required>
+                <label>Téléphone :</label>
+                <input type="tel" name="telephone" placeholder="Ex: 6xxxxxxxx" required>
+                <label>Poids (en kg) :</label><br>
+                <input type="number" name="poids" step="0.1" placeholder="Ex:75.5" required>
+                <label>Taille (en mètres) :</label><br>
+                <input type="number" name="taille" step="0.01" placeholder="Ex: 1.75" required>
+             </div>
+            <button type="submit">Envoyer et Analyser</button>
+        </form>
+    </div>
+
+    
+</body>
+</html>

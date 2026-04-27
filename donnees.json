@@ -1,0 +1,90 @@
+[
+    {
+        "nom": "testeur",
+        "telephone": "67778899",
+        "poids": 75.0,
+        "taille": 1.8,
+        "imc": 23.15,
+        "etat": "Corpulane normale"
+    },
+    {
+        "nom": "testeur",
+        "telephone": "67778899",
+        "poids": 2.0,
+        "taille": 2.0,
+        "imc": 0.5,
+        "etat": "Insuffisance ponderale(maigreur)"
+    },
+    {
+        "nom": "Alexie",
+        "telephone": "674835635",
+        "poids": 70.0,
+        "taille": 1.0,
+        "imc": 70.0,
+        "etat": "Ob\u00e9sit\u00e9"
+    },
+    {
+        "nom": "Nohime",
+        "telephone": "67778899",
+        "poids": 75.0,
+        "taille": 1.75,
+        "imc": 24.49,
+        "etat": "Corpulance normale"
+    },
+    {
+        "nom": "Noa",
+        "telephone": "676543289",
+        "poids": 50.0,
+        "taille": 1.25,
+        "imc": 32.0,
+        "etat": "Ob\u00e9sit\u00e9"
+    },
+    {
+        "nom": "Naomi",
+        "telephone": "698765434",
+        "poids": 49.7,
+        "taille": 1.3,
+        "imc": 29.41,
+        "etat": "Surpoids"
+    },
+    {
+        "nom": "Naomi",
+        "telephone": "67778899",
+        "poids": 49.7,
+        "taille": 1.3,
+        "imc": 29.41,
+        "etat": "Surpoids"
+    },
+    {
+        "nom": "Naomi",
+        "telephone": "67778899",
+        "poids": 49.7,
+        "taille": 1.3,
+        "imc": 29.41,
+        "etat": "Surpoids"
+    },
+    {
+        "nom": "tania",
+        "telephone": "675453423",
+        "poids": 79.0,
+        "taille": 1.1,
+        "imc": 65.29,
+        "etat": "Ob\u00e9sit\u00e9"
+    },
+    {
+        "nom": "tania",
+        "telephone": "67778899",
+        "poids": 79.0,
+        "taille": 1.1,
+        "imc": 65.29,
+        "etat": "Ob\u00e9sit\u00e9"
+    },
+    {
+        "nom": "tania",
+        "telephone": "67778899",
+        "poids": 79.0,
+        "taille": 1.1,
+        "imc": 65.29,
+        "etat": "Ob\u00e9sit\u00e9"
+    }
+]

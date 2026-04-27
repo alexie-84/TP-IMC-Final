@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Bilan Collecte</title>
+</head>
+<style>
+    .jaune-fond{
+    position:relative;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #eee;
+    margin: 20px 0;
+}
+.zone {height:100%;}
+.blue{width: 17%; background: #3498db;border-radius: 15px 0 0 15px;}
+.vert {width: 16%; background: #2ecc71;}
+.jaune {width: 12%; background:#f1c40f;}
+.orange {width: 12%; background:#e67e22;}
+.rouge {width: 43%; background:#e74c3c; border-radius: 0 15px 15px 0;}
+
+.curseur {
+    position: absolute;
+    top: 0;
+    width: 4px;
+    height: 100px;
+    background: black;
+    transition: 0 0 5px white;
+}
+</style>
+<body>
+    <div class="container">
+        <img src="{{ url_for('static', filename='arriere.jpeg') }}" style="width:100%; border-radius:10px;">
+        
+        <h1>Résultat de l'Analyse</h1>
+        <p>Agent/Patient : <strong>{{ nom }}</strong></p>
+        
+        <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; margin: 20px 0;">
+            <p style="font-size: 1.2em;">Votre IMC est de : <span style="color: #27ae54; font-weight: bold; font-size: 1.5em;">{{ imc }}</span></p>
+            <p>Diagnostic : <strong>{{ etat }}</strong></p>
+            <p>Conseil  : <strong>{{ conseil }}</strong></p>
+        </div>
+</body>
+</html>
+
+
+
+
+
+
+
